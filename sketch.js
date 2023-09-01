@@ -74,7 +74,7 @@ function gotResult(error, results) {
   label = results[0].label;
 
   // play sound
-  if (label == 'helmet') {
+  if (label == 'soda') {
     counter++;
     // Play sound if "helmet" is continuously predicted for 5 times
     if (counter >= 2) {
